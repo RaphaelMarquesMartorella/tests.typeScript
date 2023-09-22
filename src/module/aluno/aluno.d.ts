@@ -3,8 +3,3 @@ export interface Aluno {
     nome: String;
     cpf: Number;
 }
-
-export interface AlunoCreate {
-    nome: String;
-    cpf: Number;
-}

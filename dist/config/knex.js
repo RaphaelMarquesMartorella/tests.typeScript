@@ -1,12 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = {
+const knexConfig = {
     client: 'mysql2',
     connection: {
-        host: 'testednc',
+        host: '127.0.0.1',
         port: 3306,
-        user: 'user',
-        password: 'password',
+        user: 'raphael-marques',
+        password: 'Bolanova1!',
         database: 'testednc',
     },
+    migrations: {
+        tableName: 'migrations'
+    }
 };
+exports.default = knexConfig;
