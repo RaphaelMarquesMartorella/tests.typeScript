@@ -33,12 +33,6 @@ Modifique dados mysql
   Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts.
 ```
 
-Inicie o servidor
-
-```bash
-  npm start
-```
-
 Inicie o mysql
 
 ```bash
@@ -51,7 +45,13 @@ Realizar a migration do knex no terminal do VSCode
   npx knex migrate:latest
 ```
 
-Fazer o build o projeto
+Inicie o servidor
+
+```bash
+  npm start
+```
+
+Fazer o build o projeto(Pare de rodar o servidor, após o build inicie novamente)
 
 ```bash
   npm run build
@@ -59,19 +59,19 @@ Fazer o build o projeto
 
 -- Obs: Se você estiver tendo algum problema com o build, escreva 'yarn', depois apenas reescreva o comando acima.
 
-Testar o projeto
+Testar o projeto(em outro terminal)
 
 ```bash
   npm run test
 ```
 
-Testar os testes de integração
+Testar os testes de integração(em outro terminal)
 
 ```bash
   npm run test:int
 ```
 
-Testar os testes unitários
+Testar os testes unitários(em outro terminal)
 
 ```bash
   npm run test:unit
@@ -104,12 +104,6 @@ Add mysql data
   Go to the config folder and change the generic data to your own mysql user and password in the knex.ts file.
 ```
 
-Start the server
-
-```bash
-  npm start
-```
-
 Start mysql
 
 ```bash
@@ -122,7 +116,13 @@ Knex migration in the VSCode terminal
   npx knex migrate:latest
 ```
 
-Build the project
+Start the server
+
+```bash
+  npm start
+```
+
+Build the project(stop running the server, then after the build, initialize again)
 
 ```bash
   npm run build
@@ -130,19 +130,19 @@ Build the project
 
 -- Note: If you are having any problems with the build, write 'yarn', then just rewrite the command above.
 
-Test the project
+Test the project(in another terminal)
 
 ```bash
   npm run test
 ```
 
-Test the integration tests of the project
+Test the integration tests of the project(in another terminal)
 
 ```bash
   npm run test:int
 ```
 
-Test the unitary tests of the project
+Test the unitary tests of the project(in another terminal)
 
 ```bash
   npm run test:unit
