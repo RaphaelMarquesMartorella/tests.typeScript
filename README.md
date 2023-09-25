@@ -3,10 +3,12 @@
 
 
 
-                            Clone the project
+                            
+
+Clone the project
 
 ```bash
-  git clone https://github.com/RaphaelMarquesMartorella/beauty-store-api.git
+  git clone https:https://github.com/RaphaelMarquesMartorella/tests.typeSript.git
 ```
 
 Go to the project directory
