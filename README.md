@@ -41,7 +41,7 @@ Modifique dados mysql
 Inicie o mysql
 
 ```bash
-  Inicie seu servidor mysql com seu terminal linux ou máquina virtual com 'sudo systemctl start mysql', ou se você estiver em MacOs 'brew services start mysql'
+  Inicie seu servidor mysql com seu terminal linux ou máquina virtual com 'sudo systemctl start mysql', ou se você estiver usando MacOs 'brew services start mysql'
 ```
 
 Realizar a migration do knex no terminal do VSCode
