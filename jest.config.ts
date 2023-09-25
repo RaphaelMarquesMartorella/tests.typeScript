@@ -9,6 +9,11 @@ const config: Config = {
 
   preset: 'ts-jest',
 
+  testPathIgnorePatterns: [
+    '/node_modules/', // Exclude node_modules
+    '/dist/' // Exclude the dist folder
+  ],
+
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 

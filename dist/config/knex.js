@@ -5,8 +5,8 @@ const knexConfig = {
     connection: {
         host: '127.0.0.1',
         port: 3306,
-        user: 'raphael-marques',
-        password: 'Bolanova1!',
+        user: 'usuario',
+        password: 'senha',
         database: 'testednc',
     },
     migrations: {

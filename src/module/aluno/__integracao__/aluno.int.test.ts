@@ -53,13 +53,13 @@ describe('Int - Aluno Suite', () => {
         await request('http://localhost:8080')
           .post('/aluno')
           .send({
-            "id": 102,
+            "id": 10002,
             "nome": "Raphael",
             "cpf": 43463634
           });
           
         const response = await request('http://localhost:8080')
-          .delete('/aluno/102');
+          .delete('/aluno/10002');
       
         console.log('Response:', response.status, response.body);
       
