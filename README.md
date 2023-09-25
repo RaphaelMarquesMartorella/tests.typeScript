@@ -56,7 +56,7 @@ Fazer o build o projeto
   npm run build
 ```
 
-Teste o projeto
+Testar o projeto
 
 ```bash
   npm run test
