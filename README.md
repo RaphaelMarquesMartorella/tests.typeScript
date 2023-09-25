@@ -27,17 +27,18 @@ Instalar dependências
   npm install
 ```
 
-Inicie o servidor
-
-```bash
-  npm start
-```
-
 Modifique dados mysql
 
 ```bash
-  Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts.
+  Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts
 ```
+
+Crie um banco de dados mysql com o nome 'testednc'
+
+```bash
+  Vá para seu terminal linux, MacOs ou máquina virtual e escreva 'mysql -u root -p', após isso escreva 'CREATE DATABASE testednc;' e pronto
+```
+
 Inicie o mysql
 
 ```bash
@@ -50,25 +51,33 @@ Realizar a migration do knex no terminal do VSCode
   npx knex migrate:latest
 ```
 
-Fazer o build o projeto
+Inicie o servidor
+
+```bash
+  npm start
+```
+
+Fazer o build do projeto(Pare de rodar o servidor, após o build inicie novamente)
 
 ```bash
   npm run build
 ```
 
-Testar o projeto
+-- Obs: Se você estiver tendo algum problema com o build, escreva 'yarn', depois apenas reescreva o comando acima.
+
+Testar o projeto(em outro terminal)
 
 ```bash
   npm run test
 ```
 
-Testar os testes de integração
+Testar os testes de integração(em outro terminal)
 
 ```bash
   npm run test:int
 ```
 
-Testar os testes unitários
+Testar os testes unitários(em outro terminal)
 
 ```bash
   npm run test:unit
@@ -95,17 +104,18 @@ Install dependencies
   npm install
 ```
 
-Start the server
-
-```bash
-  npm start
-```
-
 Add mysql data
 
 ```bash
   Go to the config folder and change the generic data to your own mysql user and password in the knex.ts file.
 ```
+
+Create a mysql database with the 'testednc'
+
+```bash
+  Go to your terminal linux, MacOs or virtual machine and type 'mysql -u root -p', then type 'CREATE DATABASE testednc;' e you are ready to go
+```
+
 Start mysql
 
 ```bash
@@ -118,25 +128,33 @@ Knex migration in the VSCode terminal
   npx knex migrate:latest
 ```
 
-Build the project
+Start the server
+
+```bash
+  npm start
+```
+
+Build the project(stop running the server, then after the build, initialize again)
 
 ```bash
   npm run build
 ```
 
-Test the project
+-- Note: If you are having any problems with the build, write 'yarn', then just rewrite the command above.
+
+Test the project(in another terminal)
 
 ```bash
   npm run test
 ```
 
-Test the integration tests of the project
+Test the integration tests of the project(in another terminal)
 
 ```bash
   npm run test:int
 ```
 
-Test the unitary tests of the project
+Test the unitary tests of the project(in another terminal)
 
 ```bash
   npm run test:unit
