@@ -12,7 +12,7 @@
 Clonar o projeto
 
 ```bash
-  clone do git https:https://github.com/RaphaelMarquesMartorella/tests.typeSript.git
+  git clone https:https://github.com/RaphaelMarquesMartorella/tests.typeSript.git
 ```
 
 Vá para o diretório do projeto
@@ -24,13 +24,13 @@ Vá para o diretório do projeto
 Instalar dependências
 
 ```bash
-  instalação npm
+  npm install
 ```
 
 Inicie o servidor
 
 ```bash
-  início da execução npm
+  npm start
 ```
 
 Adicione dados mysql
@@ -47,31 +47,31 @@ Inicie o mysql
 Migração Knex no terminal VSCode
 
 ```bash
-  migração npx knex: mais recente
+  npx knex migrate:latest
 ```
 
 Construa o projeto
 
 ```bash
-  npm executar compilação
+  npm run build
 ```
 
 Teste o projeto
 
 ```bash
-  teste de execução npm
+  npm run test
 ```
 
 Testar a integração testa o projeto
 
 ```bash
-  teste de execução npm:int
+  npm run test:int
 ```
 
 Teste os testes unitários do projeto
 
 ```bash
-  teste de execução npm: unidade
+  npm run test:unit
 ```
 
 - English Version
@@ -98,7 +98,7 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  npm start
 ```
 
 Add mysql data
