@@ -7,8 +7,8 @@
     "start": "tsnd --respawn index.ts",
     "build": "tsc",
     "test": "jest",
-    "test:unit": "jest -t 'Unit - '",
-    "test:int": "jest -t 'Int - '"
+    "test:unit": "jest src/module/aluno/__tests__/__unitarios__",
+    "test:int": "jest src/module/aluno/__tests__/__integracao__"
   },
   "dependencies": {
     "express": "^4.18.2",

@@ -1,4 +1,4 @@
-import { AlunoClass } from "../aluno.model"
+import { AlunoClass } from "../../aluno.model"
 
 describe('Unit - Aluno model Suite' , () => {
     it('Deve retornar valores do modelo', async () => {
