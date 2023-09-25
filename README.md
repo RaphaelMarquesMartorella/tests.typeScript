@@ -33,10 +33,10 @@ Inicie o servidor
   npm start
 ```
 
-Adicione dados mysql
+Modifique dados mysql
 
 ```bash
-  Vá para a pasta de configuração e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts.
+  Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts.
 ```
 Inicie o mysql
 
@@ -44,13 +44,13 @@ Inicie o mysql
   Inicie seu servidor mysql com seu terminal linux ou máquina virtual com 'sudo systemctl start mysql', ou se você estiver em MacOs 'brew services start mysql'
 ```
 
-Migração Knex no terminal VSCode
+Realizar a migration do knex no terminal do VSCode
 
 ```bash
   npx knex migrate:latest
 ```
 
-Construa o projeto
+Fazer o build o projeto
 
 ```bash
   npm run build
@@ -62,13 +62,13 @@ Teste o projeto
   npm run test
 ```
 
-Testar a integração testa o projeto
+Testar os testes de integração
 
 ```bash
   npm run test:int
 ```
 
-Teste os testes unitários do projeto
+Testar os testes unitários
 
 ```bash
   npm run test:unit
@@ -130,13 +130,13 @@ Test the project
   npm run test
 ```
 
-Test the integration tests the project
+Test the integration tests of the project
 
 ```bash
   npm run test:int
 ```
 
-Test the unitary tests the project
+Test the unitary tests of the project
 
 ```bash
   npm run test:unit
