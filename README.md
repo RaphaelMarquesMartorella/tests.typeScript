@@ -30,7 +30,13 @@ Instalar dependências
 Modifique dados mysql
 
 ```bash
-  Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts.
+  Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts
+```
+
+Crie um banco de dados mysql com o nome 'testednc'
+
+```bash
+  Vá para seu terminal linux, MacOs ou máquina virtual e escreva 'mysql -u root -p', após isso escreva 'CREATE DATABASE testednc;' e pronto
 ```
 
 Inicie o mysql
@@ -102,6 +108,12 @@ Add mysql data
 
 ```bash
   Go to the config folder and change the generic data to your own mysql user and password in the knex.ts file.
+```
+
+Create a mysql database with the 'testednc'
+
+```bash
+  Go to your terminal linux, MacOs or virtual machine and type 'mysql -u root -p', then type 'CREATE DATABASE testednc;' e you are ready to go
 ```
 
 Start mysql
