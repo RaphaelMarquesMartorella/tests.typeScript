@@ -27,17 +27,18 @@ Instalar dependências
   npm install
 ```
 
+Modifique dados mysql
+
+```bash
+  Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts.
+```
+
 Inicie o servidor
 
 ```bash
   npm start
 ```
 
-Modifique dados mysql
-
-```bash
-  Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts.
-```
 Inicie o mysql
 
 ```bash
@@ -95,17 +96,18 @@ Install dependencies
   npm install
 ```
 
+Add mysql data
+
+```bash
+  Go to the config folder and change the generic data to your own mysql user and password in the knex.ts file.
+```
+
 Start the server
 
 ```bash
   npm start
 ```
 
-Add mysql data
-
-```bash
-  Go to the config folder and change the generic data to your own mysql user and password in the knex.ts file.
-```
 Start mysql
 
 ```bash
