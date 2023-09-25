@@ -18,7 +18,7 @@ Clonar o projeto
 Vá para o diretório do projeto
 
 ```bash
-  cd /
+  cd tests.typeScript
 ```
 
 Instalar dependências
@@ -86,7 +86,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd /
+  cd tests.typeScript
 ```
 
 Install dependencies
