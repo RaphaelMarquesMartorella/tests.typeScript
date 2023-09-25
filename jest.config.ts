@@ -9,11 +9,11 @@ const config: Config = {
 
   preset: 'ts-jest',
 
-  testPathIgnorePatterns: [
-    '/node_modules/', // Exclude node_modules
-    '/dist/' // Exclude the dist folder
+  "testMatch": [
+    "**/__tests__/**/*.ts", // Match .ts files in __tests__ folders
+    "**/?(*.)+(spec|test).ts", // Match .ts files ending with spec.ts or test.ts
+    "**/?(*.)+(Unit - *).ts" // Match .ts files with 'Unit - ' in their name
   ],
-
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 
