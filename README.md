@@ -57,6 +57,8 @@ Fazer o build o projeto
   npm run build
 ```
 
+-- Obs: Se você estiver tendo algum problema com o build, escreva 'yarn', depois apenas reescreva o comando acima.
+
 Testar o projeto
 
 ```bash
@@ -125,6 +127,8 @@ Build the project
 ```bash
   npm run build
 ```
+
+-- Note: If you are having any problems with the build, write 'yarn', then just rewrite the command above.
 
 Test the project
 
