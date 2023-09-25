@@ -12,7 +12,7 @@
 Clonar o projeto
 
 ```bash
-  git clone https:https://github.com/RaphaelMarquesMartorella/tests.typeSript.git
+  git clone https://github.com/RaphaelMarquesMartorella/tests.typeSript.git
 ```
 
 Vá para o diretório do projeto
@@ -80,7 +80,7 @@ Testar os testes unitários
 Clone the project
 
 ```bash
-  git clone https:https://github.com/RaphaelMarquesMartorella/tests.typeSript.git
+  git clone https://github.com/RaphaelMarquesMartorella/tests.typeSript.git
 ```
 
 Go to the project directory
