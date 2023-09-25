@@ -51,7 +51,7 @@ Inicie o servidor
   npm start
 ```
 
-Fazer o build o projeto(Pare de rodar o servidor, após o build inicie novamente)
+Fazer o build do projeto(Pare de rodar o servidor, após o build inicie novamente)
 
 ```bash
   npm run build
