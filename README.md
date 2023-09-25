@@ -5,7 +5,7 @@
 
                             
 
-Clone the project
+                                                            Clone the project
 
 ```bash
   git clone https:https://github.com/RaphaelMarquesMartorella/tests.typeSript.git
