@@ -2,7 +2,6 @@
 
 <br>
  
-
 - ### Versão Portuguesa
 
 <br>
