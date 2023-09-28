@@ -1,7 +1,5 @@
  ## API TESTS WITH NODE.JS, TYPESCRIPT AND JEST  
 
-<br>
-
 <br/>
  
 - ### Versão Portuguesa
