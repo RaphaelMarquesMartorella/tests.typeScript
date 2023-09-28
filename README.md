@@ -38,7 +38,7 @@
   CREATE DATABASE testednc;
 ```
 
-#### Inicie o mysql (linux)
+#### Inicie o mysql (Linux)
 
 ```bash
   sudo systemctl start mysql
@@ -124,7 +124,7 @@ Clone the project
 CREATE DATABASE testednc;
 ```
 
-#### Start mysql (linux)
+#### Start mysql (Linux)
 
 ```bash
   sudo systemctl start mysql
