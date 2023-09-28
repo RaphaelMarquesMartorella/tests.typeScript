@@ -1,4 +1,4 @@
-                                       API TESTES WITH NODE.JS, TYPESCRIPT AND JEST
+## API TESTES WITH NODE.JS, TYPESCRIPT AND JEST
 
 
 
@@ -30,7 +30,9 @@ Instalar dependências
 Modifique dados mysql
 
 
-** Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts
+-- Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts
+
+-- Conecte-se na sua conta mysql com 'mysql -u -p'
 
 
 Crie um banco de dados mysql com o nome 'testednc' 
@@ -42,7 +44,7 @@ Crie um banco de dados mysql com o nome 'testednc'
 Inicie o mysql (linux)
 
 ```bash
-  sudo systemctl start mysql 'brew services start mysql'
+  sudo systemctl start mysql
 ```
 
 Inicie o mysql (MacOS)
