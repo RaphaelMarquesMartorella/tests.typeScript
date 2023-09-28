@@ -29,20 +29,26 @@ Instalar dependências
 
 Modifique dados mysql
 
+
+**Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts
+
+
+Crie um banco de dados mysql com o nome 'testednc' 
+
 ```bash
-  Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts
+  CREATE DATABASE testednc
 ```
 
-Crie um banco de dados mysql com o nome 'testednc'
+Inicie o mysql (linux)
 
 ```bash
-  Vá para seu terminal linux, MacOs ou máquina virtual e escreva 'mysql -u root -p', após isso escreva 'CREATE DATABASE testednc;' e pronto
+  sudo systemctl start mysql 'brew services start mysql'
 ```
 
-Inicie o mysql
+Inicie o mysql (MacOS)
 
 ```bash
-  Inicie seu servidor mysql com seu terminal linux ou máquina virtual com 'sudo systemctl start mysql', ou se você estiver usando MacOs 'brew services start mysql'
+  brew services start mysql
 ```
 
 Realizar a migration do knex no terminal do VSCode
