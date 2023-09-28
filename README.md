@@ -4,7 +4,7 @@
  
 
 
-### - Versão Portuguesa
+- ### Versão Portuguesa
 
 <br>
 
