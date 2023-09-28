@@ -28,11 +28,13 @@ Instalar dependências
 
 Modifique dados mysql
 
-
+<br>
+ 
 - Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts
 
 - Conecte-se na sua conta mysql com 'mysql -u -p'
 
+  <br>
 
 Crie um banco de dados mysql com o nome 'testednc' 
 
@@ -72,7 +74,7 @@ Fazer o build do projeto(Pare de rodar o servidor, após o build inicie novament
 
 -- Obs: Se você estiver tendo algum problema com o build, escreva 'yarn', depois apenas reescreva o comando acima.
 
-Testar o projeto(em outro terminal)
+Testar o projeto (em outro terminal)
 
 ```bash
   npm run test
