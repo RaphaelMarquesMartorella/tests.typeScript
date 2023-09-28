@@ -28,9 +28,9 @@ Instalar dependências
 
 - Modifique dados mysql
  
-- Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts
+Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts
 
-- Conecte-se na sua conta mysql com 'mysql -u -p'
+Conecte-se na sua conta mysql com 'mysql -u -p'
 
   <br>
 
