@@ -26,9 +26,7 @@ Instalar dependências
   npm install
 ```
 
-Modifique dados mysql
-
-<br>
+- Modifique dados mysql
  
 - Vá para a pasta config e altere os dados genéricos para seu próprio usuário e senha mysql no arquivo knex.ts
 
