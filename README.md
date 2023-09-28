@@ -3,7 +3,6 @@
 <br>
  
 
-
 - ### Versão Portuguesa
 
 <br>
@@ -37,7 +36,7 @@ Instalar dependências
 Crie um banco de dados mysql com o nome 'testednc' 
 
 ```bash
-  CREATE DATABASE testednc
+  CREATE DATABASE testednc;
 ```
 
 Inicie o mysql (linux)
@@ -90,8 +89,9 @@ Testar os testes unitários(em outro terminal)
   npm run test:unit
 ```
 
-- English Version
+- ### English Version
 
+<br>
                             
 Clone the project
 
@@ -111,22 +111,30 @@ Install dependencies
   npm install
 ```
 
-Add mysql data
+#### Update mysql data
+
+<br>
+
+- Go to the config folder and change the generic data to your own mysql user and password in the knex.ts file
+- Connect with your mysql database with 'mysql -u -p'
+
+
+Create a mysql database with the name 'testednc'
 
 ```bash
-  Go to the config folder and change the generic data to your own mysql user and password in the knex.ts file.
+CREATE DATABASE testednc;
 ```
 
-Create a mysql database with the 'testednc'
+Start mysql (linux)
 
 ```bash
-  Go to your terminal linux, MacOs or virtual machine and type 'mysql -u root -p', then type 'CREATE DATABASE testednc;' e you are ready to go
+  sudo systemctl start mysql
 ```
 
-Start mysql
+Start mysql (MacOS)
 
 ```bash
-  Start your mysql server with your linux terminal or vitual machine with 'sudo systemctl start mysql', or if you in MacOs 'brew services start mysql'
+  brew services start mysql
 ```
 
 Knex migration in the VSCode terminal
