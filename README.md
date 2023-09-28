@@ -6,7 +6,7 @@
 
 <br>
 
-Clonar o projeto
+Clone o projeto
 
 ```bash
   git clone https://github.com/RaphaelMarquesMartorella/tests.typeScript.git
